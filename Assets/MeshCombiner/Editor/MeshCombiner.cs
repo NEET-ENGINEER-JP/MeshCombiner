@@ -1,12 +1,12 @@
-/*************************************************************************
- *  Copyright (C), 2017-2018, Mogoson Tech. Co., Ltd.
+﻿/*************************************************************************
+ *  Copyright © 2017-2018 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  MeshCombiner.cs
- *  Description  :  Draw the extend editor window and combine Meshes.
+ *  Description  :  Draw the extend editor window and combine meshes.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  0.1.0
- *  Date         :  8/31/2017
+ *  Date         :  3/9/2018
  *  Description  :  Initial development version.
  *************************************************************************/
 
@@ -18,7 +18,7 @@ namespace Developer.MeshCombiner
 {
     public class MeshCombiner : ScriptableWizard
     {
-        #region Property and Field
+        #region Field and Property 
         [Tooltip("Root gameobject of meshes.")]
         public GameObject meshesRoot;
 
@@ -73,9 +73,21 @@ namespace Developer.MeshCombiner
             //Mesh.Optimize was removed in version 5.5.2p4.
             newMesh.Optimize();
 #endif
-            meshSave.AddComponent<MeshFilter>().sharedMesh = newMesh;
-            meshSave.AddComponent<MeshCollider>().sharedMesh = newMesh;
-            meshSave.AddComponent<MeshRenderer>().sharedMaterials = materialList.ToArray();
+            var filter = meshSave.GetComponent<MeshFilter>();
+            if (filter == null)
+                filter = meshSave.AddComponent<MeshFilter>();
+
+            var renderer = meshSave.GetComponent<MeshRenderer>();
+            if (renderer == null)
+                renderer = meshSave.AddComponent<MeshRenderer>();
+
+            var collider = meshSave.GetComponent<MeshCollider>();
+            if (collider == null)
+                collider = meshSave.AddComponent<MeshCollider>();
+
+            filter.sharedMesh = newMesh;
+            collider.sharedMesh = newMesh;
+            renderer.sharedMaterials = materialList.ToArray();
 
             AssetDatabase.CreateAsset(newMesh, newMeshPath);
             AssetDatabase.Refresh();
