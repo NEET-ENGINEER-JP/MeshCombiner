@@ -16,9 +16,9 @@
 - MeshCombiner：Draw the extend editor window and combine Meshes.
 
 ## Preview
-- MeshCombiner
+- Mesh Combiner
 
-![MeshCombiner](./Attachments/README_Image/MeshCombiner.gif)
+![Mesh Combiner](./Attachments/README_Image/MeshCombiner.gif)
 
 ## Contact
-- If you have any questions, feel free to contact me at mogoson@qq.com.
+- If you have any questions, feel free to contact me at mogoson@outlook.com.

@@ -16,9 +16,9 @@ Unity 网格合成器。
 - MeshCombiner：绘制扩展编辑器窗口，合并模型网格。
 
 ## 预览
-- MeshCombiner
+- Mesh Combiner
 
-![MeshCombiner](./Attachments/README_Image/MeshCombiner.gif)
+![Mesh Combiner](./Attachments/README_Image/MeshCombiner.gif)
 
 ## 联系
-- 如果你有任何问题或者建议，欢迎通过mogoson@qq.com联系我。
+- 如果你有任何问题或者建议，欢迎通过mogoson@outlook.com联系我。
