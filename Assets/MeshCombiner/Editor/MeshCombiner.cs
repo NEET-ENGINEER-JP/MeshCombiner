@@ -36,9 +36,13 @@ namespace Mogoson.MeshCombiner
         private void OnWizardUpdate()
         {
             if (meshesRoot && meshSave)
+            {
                 isValid = true;
+            }
             else
+            {
                 isValid = false;
+            }
         }
 
         private void OnWizardCreate()
@@ -50,7 +54,9 @@ namespace Mogoson.MeshCombiner
                 "Enter a file name to save the new combine mesh.");
 
             if (newMeshPath == string.Empty)
+            {
                 return;
+            }
 
             var meshFilters = meshesRoot.GetComponentsInChildren<MeshFilter>();
             var combines = new CombineInstance[meshFilters.Length];
@@ -75,15 +81,21 @@ namespace Mogoson.MeshCombiner
 #endif
             var filter = meshSave.GetComponent<MeshFilter>();
             if (filter == null)
+            {
                 filter = meshSave.AddComponent<MeshFilter>();
+            }
 
             var renderer = meshSave.GetComponent<MeshRenderer>();
             if (renderer == null)
+            {
                 renderer = meshSave.AddComponent<MeshRenderer>();
+            }
 
             var collider = meshSave.GetComponent<MeshCollider>();
             if (collider == null)
+            {
                 collider = meshSave.AddComponent<MeshCollider>();
+            }
 
             filter.sharedMesh = newMesh;
             collider.sharedMesh = newMesh;
