@@ -10,10 +10,7 @@
 
 ## Environment
 - Unity 5.0 or above.
-- .Net Framework 3.0 or above.
-
-## Achieve
-- MeshCombiner：Draw the extend editor window and combine Meshes.
+- .Net Framework 3.5 or above.
 
 ## Preview
 - Mesh Combiner

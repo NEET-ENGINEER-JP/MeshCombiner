@@ -10,10 +10,7 @@ Unity 网格合成器。
 
 ## 环境
 - Unity 5.0 或更高版本。
-- .Net Framework 3.0 或更高版本。
-
-## 实现
-- MeshCombiner：绘制扩展编辑器窗口，合并模型网格。
+- .Net Framework 3.5 或更高版本。
 
 ## 预览
 - Mesh Combiner
