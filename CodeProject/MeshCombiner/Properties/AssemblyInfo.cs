@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MeshCombiner")]
 [assembly: AssemblyDescription("Unity Meshes combiner")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Mogoson")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MeshCombiner")]
 [assembly: AssemblyCopyright("Copyright ©  2017-2019 Mogoson")]
 [assembly: AssemblyTrademark("")]
