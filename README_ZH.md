@@ -15,7 +15,7 @@ Unity 网格合成器。
 ## 预览
 - Mesh Combiner
 
-![Mesh Combiner](./Attachments/README_Image/MeshCombiner.gif)
+![Mesh Combiner](./Attachment/README_Image/MeshCombiner.gif)
 
 ## 联系
 - 如果你有任何问题或者建议，欢迎通过mogoson@outlook.com联系我。
