@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace Mogoson.MeshCombiner
+namespace MGS.MeshCombiner
 {
     public class MeshCombiner : ScriptableWizard
     {

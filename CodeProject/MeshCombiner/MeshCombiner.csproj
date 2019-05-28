@@ -7,7 +7,7 @@
     <ProjectGuid>{75EF4CE7-5663-44AF-B892-982DECF67ED6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mogoson.MeshCombiner</RootNamespace>
+    <RootNamespace>MGS.MeshCombiner</RootNamespace>
     <AssemblyName>MeshCombiner</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
