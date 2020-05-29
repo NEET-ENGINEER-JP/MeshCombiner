@@ -1,5 +1,5 @@
 ﻿==========================================================================
-  Copyright © 2017-2019 Mogoson. All rights reserved.
+  Copyright (c) 2017-2019 Mogoson. All rights reserved.
   Name: MeshCombiner
   Author: Mogoson   Version: 1.0.0   Date: 4/29/2019
 ==========================================================================
@@ -14,9 +14,6 @@
   [Environment]
     Unity 5.0 or above.
     .Net Framework 3.5 or above.
---------------------------------------------------------------------------
-  [Achieve]
-    MeshCombiner：Draw the extend editor window and combine Meshes.
 --------------------------------------------------------------------------
   [Usage]
     Find the menu item "Tool/Mesh Combiner" in Unity editor menu bar and
